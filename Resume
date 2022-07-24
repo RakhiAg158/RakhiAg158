@@ -68,9 +68,9 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Rakhi}{Agarwal}{ \urlstyle{same}\href{http://rakhiagarwal.com}{\bf rakhiagarwal.com}
-\href{mailto:rakhi.ag.26@gmail.com}{\bf rakhi.ag.26@gmail.com} | \urlstyle{same}\href{https://github.com/RakhiAg158}{\bf Github} |
-\urlstyle{same}\href{https://linkedin.com/in/rakhi-agarwal-ab07881a5}{\bf Linkedin}} 
+\namesection{Rakhi}{Agarwal}{
+%\urlstyle{same}\href{mailto:rakhi.ag.26@gmail.com}{\bf rakhi.ag.26@gmail.com} | \href{Mobile: +91-9870612158}{\bf +91-9870612158} 
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -88,11 +88,9 @@
 
 \subsection{DIT University}
 \descript{BTech in Petroleum Engineering}
-\location{Augest \textbf{2017 } - June \textbf{2021} | Dehradun, Uttarakhand}
+\location{August \textbf{2017 } - June \textbf{2021} | Dehradun, Uttarakhand}
 \sectionsep
 
-College of Engineering \\
-Magna Cum Laude\\
 \location{ Major GPA: 7.66 / 10.0}
 \sectionsep
 
@@ -102,10 +100,10 @@ Magna Cum Laude\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-Facebook:// \href{https://www.facebook.com/profile.php.id=100006763998022}{\bf 100006763998022} \\
+Facebook:// \href{https://www.facebook.com/profile.php.id=100006763998022}{\bf Rakhi Agarwal} \\
 Github:// \href{https://github.com/RakhiAg158}{\bf RakhiAg158} \\
-GeeksForGeeks:// \href{https://auth.geeksforgeeks.org/user/rakhiag26/practice/} \\
-LinkedIn://  \href{https://www.linkedin.com/in/rakhi-agarwal-ab07881a5}{\bf ab07881a5} \\
+GeeksForGeeks:// \href{https://auth.geeksforgeeks.org/user/rakhiag26/practice/}{\bf rakhiag26} \\
+LinkedIn://  \href{https://www.linkedin.com/in/rakhi-agarwal-ab07881a5}{\bf Rakhi Agarwal} \\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -114,9 +112,15 @@ LinkedIn://  \href{https://www.linkedin.com/in/rakhi-agarwal-ab07881a5}{\bf ab07
 
 \section{Skills}
 \subsection{Programming}
-Java \textbullet{}   SpringBoot \textbullet{} MicroServices \textbullet{} Javascript \\
+\textbullet{} Java \\
+\textbullet{} SpringBoot \\
+\textbullet{} MicroServices \\
+ \textbullet{}Javascript \\
+
 \location{Familiar:}
-iOS \textbullet{} Android \textbullet{} MySQL
+\textbullet{} iOS \\ 
+\textbullet{} Android  \\
+\textbullet{} MySQL \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -134,8 +138,8 @@ iOS \textbullet{} Android \textbullet{} MySQL
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-\runsubsection{Tata Consultancy Services Ltd}
-\descript{| System Engineer }
+\runsubsection{Tata Consultancy Services Ltd} \\
+\descript{ Assistant System Engineer-Trainee }
 \location{29 Nov 2021 - Present | Noida, Uttar Pradesh}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
@@ -146,8 +150,8 @@ iOS \textbullet{} Android \textbullet{} MySQL
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Valued Epistemics Pvt Ltd}
-\descript{| Graduate Sales Trainee }
+\runsubsection{Valued Epistemics Pvt Ltd} \\
+\descript{ Graduate Sales Trainee }
 \location{11 Oct 2021 – 21 Nov 2014 | Chennai, Tamil Nadu}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
@@ -161,10 +165,11 @@ iOS \textbullet{} Android \textbullet{} MySQL
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{PROJECTS}
+\runsubsection{Cyber Security } \\
 \begin{tightemize}
-\item Cyber Security
-\item *Finding vulnerabilities in any website using VEGA (SQL Injection)
-\item After getting a website vulnerable to SQL Injection, exploited these vulnerabilities to gain access.
+
+\item *Finding vulnerabilities in any website using VEGA (SQL Injection) 
+\item After getting a website vulnerable to SQL Injection, exploited these vulnerabilities to gain access. 
 \end{tightemize}
 \sectionsep
 
@@ -178,3 +183,6 @@ iOS \textbullet{} Android \textbullet{} MySQL
 \end{tabular}
 \sectionsep
 
+\end{minipage}%
+\end{document}  
+\documentclass[]{article}
