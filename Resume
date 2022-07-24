@@ -1,0 +1,180 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Author:
+% Rakhi Agarwal (http://rakhiagarwal.com)
+%
+% Repository
+% https://github.com/RakhiAg158/RakhiAg158/new/main
+
+% Original Author repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Rakhi}{Agarwal}{ \urlstyle{same}\href{http://rakhiagarwal.com}{\bf rakhiagarwal.com}
+\href{mailto:rakhi.ag.26@gmail.com}{\bf rakhi.ag.26@gmail.com} | \urlstyle{same}\href{https://github.com/RakhiAg158}{\bf Github} |
+\urlstyle{same}\href{https://linkedin.com/in/rakhi-agarwal-ab07881a5}{\bf Linkedin}} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{DIT University}
+\descript{BTech in Petroleum Engineering}
+\location{Augest \textbf{2017 } - June \textbf{2021} | Dehradun, Uttarakhand}
+\sectionsep
+
+College of Engineering \\
+Magna Cum Laude\\
+\location{ Major GPA: 7.66 / 10.0}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Facebook:// \href{https://www.facebook.com/profile.php.id=100006763998022}{\bf 100006763998022} \\
+Github:// \href{https://github.com/RakhiAg158}{\bf RakhiAg158} \\
+GeeksForGeeks:// \href{https://auth.geeksforgeeks.org/user/rakhiag26/practice/} \\
+LinkedIn://  \href{https://www.linkedin.com/in/rakhi-agarwal-ab07881a5}{\bf ab07881a5} \\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+Java \textbullet{}   SpringBoot \textbullet{} MicroServices \textbullet{} Javascript \\
+\location{Familiar:}
+iOS \textbullet{} Android \textbullet{} MySQL
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Tata Consultancy Services Ltd}
+\descript{| System Engineer }
+\location{29 Nov 2021 - Present | Noida, Uttar Pradesh}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item My work is to resolve user’s access issues.
+\item I am responsible for Documentation and User Acceptance Testing.
+\item Code analysis. Make code more readable.
+\item My main goal is to understand customer needs and provide them instant solution.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Valued Epistemics Pvt Ltd}
+\descript{| Graduate Sales Trainee }
+\location{11 Oct 2021 – 21 Nov 2014 | Chennai, Tamil Nadu}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item A corporate and professional role with intensive training in selling and customer’s acquiring skills. 
+\item Understanding customers problem and providing the solution is the main goal.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{PROJECTS}
+\begin{tightemize}
+\item Cyber Security
+\item *Finding vulnerabilities in any website using VEGA (SQL Injection)
+\item After getting a website vulnerable to SQL Injection, exploited these vulnerabilities to gain access.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\begin{tabular}{rll}
+2022	     & On The Spot Award\\
+\end{tabular}
+\sectionsep
+
